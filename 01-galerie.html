@@ -10,9 +10,11 @@
     <body x-data="{imageAffichee: 'https://picsum.photos/id/237/200/300',}">
         <h1>Galerie</h1>
         <p>lorem⇥</p>
-        <div class="overlay" x-show="imageAffichee @click="imageAffichee=null">
+        <div class="overlay" x-show="imageAffichee" @click="imageAffichee=null" @keyup.escape.window ="imageAffichee=null">
             <figure>
-                <img src="https://picsum.photos/id/237/200/300">
+                <img :src="imageAffichee">
+                <img src="https://picsum.photos/id/236/40/60" alt="miniature chiot" @click="imageAffichee = 'https://picsum.photos/id/236/200/300'">
+                <img src="https://picsum.photos/id/237/40/60" alt="miniature chiot" @click="imageAffichee = 'https://picsum.photos/id/237/200/300'">
             </figure>
         </div>
     </body>
