@@ -1,0 +1,38 @@
+.overlay {
+    position: fixed; /* Position fixe */
+    width: 100%; /* Largeur totale */
+    height: 100%; /* Hauteur totale */
+    top: 0; /* En haut */
+    left: 0; /* À gauche */
+    right: 0; /* À droite */
+    bottom: 0; /* En bas */
+    background-color: rgba(0, 0, 0, 0.9); /* Fond noir avec opacité */
+    cursor: pointer; /* Curseur en forme de pointeur au survol */
+    display: grid; /* Affichage en grille */
+    place-content: center; /* Centrage vertical et horizontal */
+}
+.overlay::after {
+    content: "X"; /* Contenu : "X" */
+    color: #fff; /* Couleur du texte blanc */
+    background-color: #000; /* Fond noir */
+    font-family: sans-serif; /* Police de caractères sans-serif */
+    text-align: center; /* Texte centré */
+    line-height: 2rem; /* Hauteur de ligne égale à la hauteur */
+    display: block; /* Affichage en bloc */
+    position: absolute; /* Position absolue */
+    top: 1rem; /* À 1rem du haut */
+    right: 1rem; /* À 1rem de la droite */
+    width: 2rem; /* Largeur de 2rem */
+    height: 2rem; /* Hauteur de 2rem */
+    border: 2px solid #fff; /* Bordure blanche de 2px */
+    border-radius: 50%; /* Bordure arrondie à 50% pour un cercle */
+}
+.overlay>figure {
+    margin: 0; /* Pas de marge */
+    padding: 1rem; /* Remplissage de 1rem */
+    border: 2px solid #fff; /* Bordure blanche de 2px */
+}
+.overlay>figure>img {
+    max-width: 100%; /* Largeur maximale de 100% pour une image responsive */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
