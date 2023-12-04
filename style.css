@@ -37,3 +37,15 @@
     height: auto; /* Hauteur automatique pour conserver les proportions */
 }
 
+body {
+    padding: 0; /* Pas de remplissage */
+    font-family: sans-serif; /* Police de caractères sans-serif */
+    font-size: 1rem; /* Taille de police de 1rem */
+    line-height: 1.5; /* Hauteur de ligne de 1.5 */
+    color: #333; /* Couleur de texte grise */
+}
+img{
+    padding: 0; /* Pas de remplissage */
+    max-width: 100%; /* Largeur maximale de 100% */
+    height: auto;
+}
