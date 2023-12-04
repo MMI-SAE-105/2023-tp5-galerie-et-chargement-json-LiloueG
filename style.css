@@ -1,7 +1,7 @@
 .overlay {
-    position: fixed; /* Position fixe */
-    width: 100%; /* Largeur totale */
-    height: 100%; /* Hauteur totale */
+    position: absolute; /* Position absolue */
+    width: 100vw; /* Largeur totale */
+    height: 100vh; /* Hauteur totale */
     top: 0; /* En haut */
     left: 0; /* À gauche */
     right: 0; /* À droite */
@@ -47,5 +47,5 @@ body {
 img{
     padding: 0; /* Pas de remplissage */
     max-width: 100%; /* Largeur maximale de 100% */
-    height: auto;
+    height: auto; /* Hauteur automatique pour conserver les proportions */
 }
