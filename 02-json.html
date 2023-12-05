@@ -22,5 +22,13 @@
             </li>
         </template>
     </ul>
+
+    <ul x-data="{
+        async données() {
+            const resp = await fetch('data_json');
+            return await resp.json();
+        }
+    }">
+    </ul>
 </body>
 </html>
