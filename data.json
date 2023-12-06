@@ -13,6 +13,16 @@
         "nom": "Julien",
         "projet": "Laravel",
         "url": "https://laravel.com/"
-    }   
+    },
+    {
+        "nom": "Alexandre",
+        "projet": "VueJS", 
+        "url": "https://vuejs.org/"
+    },
+    {
+        "nom": "Axel",
+        "projet": "ReactJS",
+        "url": "https://fr.reactjs.org/"
+    } 
 
 ]
