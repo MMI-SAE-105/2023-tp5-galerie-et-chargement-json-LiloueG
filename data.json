@@ -4,14 +4,15 @@
         "projet": "Alpinejs",
         "url": "https://alpinejs.dev/"
     },
-        {
-            "nom": "Maxime",
-            "projet": "TailwindCSS",
-            "url": "https://tailwindcss.com/"
-        },
-        {
-            "nom": "Julien",
-            "projet": "Laravel",
-            "url": "https://laravel.com/"
-        }
-    ]
+    {
+        "nom": "Maxime",
+        "projet": "TailwindCSS",
+        "url": "https://tailwindcss.com/"
+    },
+    {
+        "nom": "Julien",
+        "projet": "Laravel",
+        "url": "https://laravel.com/"
+    }   
+
+]
