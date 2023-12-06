@@ -1,3 +1,25 @@
+/* Réinitialisation des marges et des rembourrages */
+body, h1, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .overlay {
     position: absolute; /* Position absolue */
     width: 100vw; /* Largeur totale */
@@ -38,7 +60,6 @@
 }
 
 body {
-    padding: 0; /* Pas de remplissage */
     font-family: sans-serif; /* Police de caractères sans-serif */
     font-size: 1rem; /* Taille de police de 1rem */
     line-height: 1.5; /* Hauteur de ligne de 1.5 */
